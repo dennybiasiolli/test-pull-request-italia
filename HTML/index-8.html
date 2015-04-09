@@ -150,12 +150,71 @@
     <div class="image-caption">
         <div class="inner">
             <div class="simple">
-                <h1>POWERFUL ONE PAGE</h1>
+                <div class="row">
+                    <div class="col-md-12">
 
-                <h2>FRIENDLY . RESPONSIVE . SIMPLE</h2>
+                        <!-- EMAIL FORM -->
+                        <form id="emailForm" class="form-horizontal" method="post" action="php/contact.php">
+                            <input type="hidden" name="action" value="email_send"/>
+                            <!-- name -->
+                            <div class="form-group">
+                                <label for="people" class="col-sm-2 control-label">Взрослых:</label>
+                                <div class="col-sm-10" id="people">
+                                    <select>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2" selected="selected">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
 
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a class="btn btn-custom btn-lg" href="#">PURCHASE NOW</a>
+                            <div class="form-group">
+                                <label for="child" class="col-sm-2 control-label">Взрослых:</label>
+                                <div class="col-sm-10">
+                                    <select id="child">
+                                        <option value="0" selected="selected">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- name -->
+                            <div class="form-group">
+
+                                <div class="col-sm-10">
+                                    <input required class="form-control" type="text" id="name" name="name" value=""
+                                           placeholder="Как Вас зовут?"/>
+                                </div>
+                            </div>
+
+                            <!-- email -->
+                            <div class="form-group">
+
+                                <div class="col-sm-10">
+                                    <input required class="form-control" type="email" id="email" name="email" value=""
+                                           placeholder="Ваш телефон"/>
+                                </div>
+                            </div>
+
+                            <!-- send button -->
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-custom">SEND MESSAGE</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- EMAIL FORM -->
+
+                    </div>
+                </div>
+                <!--<h1>POWERFUL ONE PAGE</h1>-->
+
+                <!--<h2>FRIENDLY . RESPONSIVE . SIMPLE</h2>-->
+
+                <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
+                <!--<a class="btn btn-custom btn-lg" href="#">PURCHASE NOW</a>-->
             </div>
         </div>
     </div>
@@ -1576,49 +1635,49 @@
         <!-- MESSAGE NOT SENT -->
 
         <div class="row text-left">
-            <div class="col-md-6">
+            <!--<div class="col-md-6">-->
 
-                <!-- EMAIL FORM -->
-                <form id="emailForm" class="form-horizontal" method="post" action="php/contact.php">
-                    <input type="hidden" name="action" value="email_send"/>
+            <!--&lt;!&ndash; EMAIL FORM &ndash;&gt;-->
+            <!--<form id="emailForm" class="form-horizontal" method="post" action="php/contact.php">-->
+            <!--<input type="hidden" name="action" value="email_send"/>-->
 
-                    <!-- name -->
-                    <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Name</label>
+            <!--&lt;!&ndash; name &ndash;&gt;-->
+            <!--<div class="form-group">-->
+            <!--<label for="name" class="col-sm-2 control-label">Name</label>-->
 
-                        <div class="col-sm-10">
-                            <input required class="form-control" type="text" id="name" name="name" value=""/>
-                        </div>
-                    </div>
+            <!--<div class="col-sm-10">-->
+            <!--<input required class="form-control" type="text" id="name" name="name" value=""/>-->
+            <!--</div>-->
+            <!--</div>-->
 
-                    <!-- email -->
-                    <div class="form-group">
-                        <label for="email" class="col-sm-2 control-label">Email</label>
+            <!--&lt;!&ndash; email &ndash;&gt;-->
+            <!--<div class="form-group">-->
+            <!--<label for="email" class="col-sm-2 control-label">Email</label>-->
 
-                        <div class="col-sm-10">
-                            <input required class="form-control" type="email" id="email" name="email" value=""/>
-                        </div>
-                    </div>
+            <!--<div class="col-sm-10">-->
+            <!--<input required class="form-control" type="email" id="email" name="email" value=""/>-->
+            <!--</div>-->
+            <!--</div>-->
 
-                    <!-- message -->
-                    <div class="form-group">
-                        <label for="message" class="col-sm-2 control-label">Message</label>
+            <!--&lt;!&ndash; message &ndash;&gt;-->
+            <!--<div class="form-group">-->
+            <!--<label for="message" class="col-sm-2 control-label">Message</label>-->
 
-                        <div class="col-sm-10">
-                            <textarea required class="form-control" id="message" name="message" rows="5"></textarea>
-                        </div>
-                    </div>
+            <!--<div class="col-sm-10">-->
+            <!--<textarea required class="form-control" id="message" name="message" rows="5"></textarea>-->
+            <!--</div>-->
+            <!--</div>-->
 
-                    <!-- send button -->
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-custom">SEND MESSAGE</button>
-                        </div>
-                    </div>
-                </form>
-                <!-- EMAIL FORM -->
+            <!--&lt;!&ndash; send button &ndash;&gt;-->
+            <!--<div class="form-group">-->
+            <!--<div class="col-sm-offset-2 col-sm-10">-->
+            <!--<button type="submit" class="btn btn-custom">SEND MESSAGE</button>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</form>-->
+            <!--&lt;!&ndash; EMAIL FORM &ndash;&gt;-->
 
-            </div>
+            <!--</div>-->
 
             <div class="col-md-6">
 

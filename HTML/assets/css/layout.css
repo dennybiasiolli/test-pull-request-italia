@@ -900,6 +900,11 @@ h4.panel-title a i {
 		*/
 		#home.homeTop .simple {
 			padding:100px 0;
+            max-width: 500px;
+            margin: 0px auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 30px;
+            color: white;
 		}
 
 		/* 
